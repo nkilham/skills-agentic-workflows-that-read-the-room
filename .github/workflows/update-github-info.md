@@ -14,6 +14,7 @@ network:
   allowed:
     - defaults
     - github
+    - github.com
 tools:
   web-fetch:
   edit:
