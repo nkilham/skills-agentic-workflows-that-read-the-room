@@ -15,6 +15,7 @@ network:
     - defaults
     - github
     - github.com
+    - awesome-copilot.github.com
 tools:
   web-fetch:
   edit:
@@ -39,14 +40,15 @@ You maintain Mona's GitHub Info page. Refresh the content with concise, practica
 1. Read `notes/mona-notes.md` first and follow its guidance.
 2. Use `web-fetch` to fetch `https://github.blog/latest/`.
 3. Use `web-fetch` to fetch `https://github.blog/changelog/`.
-4. Read `site/content/github-info.md` before editing so the update fits the existing style.
+4. Use `web-fetch` to fetch `https://awesome-copilot.github.com/workflows/`.
+5. Read `site/content/github-info.md` before editing so the update fits the existing style.
 
 ## Update Rules
 
 - Update only `site/content/github-info.md`.
 - Keep summaries short, practical, and useful for developers learning GitHub faster.
 - Include or refresh a `## Latest GitHub Updates` section.
-- Include at least one concise update sourced from the GitHub Blog or GitHub Changelog.
+- Include at least one concise update sourced from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows (https://awesome-copilot.github.com/workflows/).
 - Mention the source for each new update.
 - Avoid broad rewrites unless the existing section is stale or duplicated.
 
