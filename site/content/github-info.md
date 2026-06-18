@@ -17,4 +17,10 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 
 ## Latest GitHub Updates
 
-- GitHub continues expanding Copilot-assisted workflows across the editor, CLI, and pull requests so developers can move from idea to reviewed change faster.
+*Last refreshed: 2026-06-11 — sources: [github.blog/latest](https://github.blog/latest/) and [github.blog/changelog](https://github.blog/changelog/)*
+
+- **GitHub Agentic Workflows is now in public preview** — Automate multi-step tasks directly in your repository using Copilot-powered agents. No personal access token required. ([Changelog, Jun 11 2026](https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview))
+- **Copilot CLI gets a unified `/settings` command** — Configure your Copilot CLI preferences from one place instead of hunting through scattered options. ([Changelog, Jun 11 2026](https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings))
+- **Bot-created PRs can now trigger workflows when approved** — Maintainers can approve bot PRs to let Actions run, closing a common automation gap. ([Changelog, Jun 11 2026](https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved))
+- **Discussions, sub-issues, and dependencies in GitHub CLI** — `gh` now supports listing, viewing, and creating discussions, plus managing sub-issues and dependencies without leaving the terminal. ([Changelog, Jun 10 2026](https://github.blog/changelog/2026-06-10-list-view-and-create-discussions-in-github-cli))
+- **Copilot CLI + language servers = real code intelligence** — Learn how to wire a language server into the Copilot CLI for context-aware completions in your repo. ([GitHub Blog, Jun 10 2026](https://github.blog/2026/06/10/give-github-copilot-cli-real-code-intelligence-with-language-servers/))
